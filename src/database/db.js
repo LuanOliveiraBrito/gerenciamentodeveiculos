@@ -5,7 +5,7 @@ import fs from 'fs';
 import bcrypt from 'bcryptjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const dbFile = join(__dirname, '..', '..', 'vehicles.db');
+const dbFile = '/data/vehicles.db';
 
 let db;
 let SQL;
