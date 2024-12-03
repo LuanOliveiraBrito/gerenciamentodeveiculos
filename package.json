@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "server": "node server.js",
-    "start": "concurrently \"npm run server\" \"npm run dev\""
+    "start": "PORT=8080 concurrently \"npm run server\" \"npm run dev\""
   },
   "dependencies": {
     "axios": "^1.6.7",
