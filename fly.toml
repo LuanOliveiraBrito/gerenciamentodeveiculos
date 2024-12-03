@@ -8,9 +8,9 @@ primary_region = "gru"
 [build]
   builder = "paketobuildpacks/builder:base"
   
-[mounts]
+[[mounts]]
   source = "data"
-  destination = "/data"
+  destination = "/app/data"
 
 [env]
   PORT = "8080"
