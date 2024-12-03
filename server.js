@@ -1,5 +1,7 @@
 import express from 'express';
 import cors from 'cors';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import { initializeDatabase } from './src/database/db.js';
 import vehicleRoutes from './src/routes/vehicleRoutes.js';
 import driverRoutes from './src/routes/driverRoutes.js';
